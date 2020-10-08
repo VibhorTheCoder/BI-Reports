@@ -1,0 +1,21 @@
+/* .myStyle{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+
+.headerStyle{
+    background-color: white;
+} */
+
+.myBody{
+    /* background-color: #EEF0F8; */
+    background-color: white;
+    font-family: 'MyFont';
+    padding-bottom: 1px;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(./fonts/roboto.ttf) format('woff');
+  }

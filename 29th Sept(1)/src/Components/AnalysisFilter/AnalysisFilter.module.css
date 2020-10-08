@@ -1,0 +1,105 @@
+.topbarStyle{
+    /* position: fixed; */
+  height:fit-content;
+  flex-direction: row;
+  display: flex;
+  margin-top: 40px;   
+  left: 0px;
+  margin-left: 90px;
+  width:90%;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
+  
+}
+
+.myDiv3Style{    
+    flex-direction: row;
+     /* align-items: center; */
+display: flex;
+/* margin-bottom: -190px; */
+margin-bottom: -185px;
+width: 100%;
+justify-content: space-evenly;
+}
+
+.calImageStyle{
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    /* align-items: center;     */    
+    display: flex;
+    text-align: center;
+    padding-top: 30px;  
+    
+    padding-bottom: 200px;
+    margin-bottom: -200px;
+    bottom: 0%;
+   color: black;
+    border-radius: 10px 10px 0px 0px;    
+}
+.calImageStyle:hover {
+    /* width: 100%;    
+    position: fixed;
+    justify-content: space-around;
+    height: 100px;    
+    padding: 10px;  
+    background-color: #00A6FF;  */
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    /* align-items: center;     */    
+    display: flex;
+    text-align: center;
+    padding-top: 10px;  
+    color: black;
+    padding-bottom: 10px;
+    padding-bottom: 280px;
+    padding-top: 60px;
+    height: 10px;    
+   overflow: visible;
+   background-color: white;   
+    border-radius: 10px 10px 0px 0px;    
+  border: 1px solid #000000;
+}
+
+.textStyleDiv{
+    border-color: #00A6FF;  
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    width: 130px;
+    height: 30px;      
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    cursor: pointer;
+  }
+
+  .textStyleDiv:hover{
+    border-color: #00A6FF;  
+    background-color: #00A6FF;    
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    width: 130px;
+    height: 30px;      
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+    cursor: pointer;
+  }
+
+  .myImageStyle{
+      width: 40px;
+      height: 40px;
+  }

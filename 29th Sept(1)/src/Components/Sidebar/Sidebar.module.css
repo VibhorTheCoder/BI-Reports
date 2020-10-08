@@ -1,0 +1,67 @@
+
+.body{
+  flex-direction: row;
+  width: 100%;
+  display:flex;      
+}
+.stickyProps{
+  position: sticky;
+flex: 1;  
+width: 'stickiness'
+}
+.menuBG{
+    background-color: #00A6FF;       
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+  width: 120px;
+  height: 80px;
+  position: sticky;
+  /* margin-left: -55px; */
+  margin-right: 40px;
+  user-select: none;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+.menuBG:hover{
+  background-color: #00A6FF;   
+  overflow: visible;
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 10px 10px 0px;  
+  text-align: center;
+height: 100%;
+position: fixed;
+user-select: none;
+cursor: pointer;
+border-radius: 0px 10px 10px 0px;
+width: 230px;
+margin-right: 40px;
+}
+.sideTextDiv{
+  padding: 10px;
+  padding-left: 15px;
+  text-align: left;  
+}
+.sideTextDiv:hover{
+  padding: 10px;
+  text-align: center;  
+  background-color: #00A6FF;
+}
+.sideText{
+  font-size: 18px;
+  color: black;
+}
+.logo{
+    padding: 10px;
+    width: 70px;
+    height: 50px;  
+    margin: 5px;      
+    align-content: center;
+    user-select: none;
+}
+
+
+/* #555353 */

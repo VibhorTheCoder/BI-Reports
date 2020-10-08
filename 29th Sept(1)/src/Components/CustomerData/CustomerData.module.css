@@ -1,0 +1,256 @@
+.myBodyStyle{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.myHeader{
+    font-size: 22px;
+    background-color: #00A6FF;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0px 10px 10px 0px;  
+}
+
+.textStyleDivTest{        
+  height: 100px;
+    width: 100px;
+    border-radius: 45%;  
+  padding: 40px;
+  /* margin-left: 30px;
+  margin-right: 30px; */
+  width: 130px;
+  height: 30px;      
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;    
+  cursor: pointer;
+  flex-direction: column;
+  background-color: rgb(255, 208, 0);  
+}
+
+
+.textStyleDiv{        
+    padding: 40px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    width: 130px;
+    height: 30px;      
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+    cursor: pointer;
+    flex-direction: column;
+  }
+
+  
+.textStyleDiv:hover{
+    background-color: rgb(255, 208, 0);  
+    height: 100px;
+    width: 100px;
+    border-radius: 45%;  
+    padding: 40px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    width: 130px;
+    height: 30px;      
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+    cursor: pointer;
+    flex-direction: column;
+  }
+
+  .textStyle{
+    font-size: 40px;    
+    text-align: center;
+    color: #0c0c0c;
+    user-select: none;
+  }
+  .textStyleTwo{
+    font-size: 15px;    
+    text-align: center;
+    color: #0c0c0c;
+    user-select: none;
+  }
+
+  .topbarStyle{
+    /* position: fixed; */
+  height:fit-content;
+  flex-direction: row;
+  display: flex;
+  margin-top: 10px;   
+  left: 0px;
+  margin-left: 90px;
+  width:90%;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
+  
+}
+
+.fontStyle{
+    font-size: 20px;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+
+.mySecondBody{
+   
+    width: 80%;
+    flex-direction: row;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+  padding: 10px;
+  
+}
+
+
+.myFontStyle{
+  text-align: left;
+  font-size: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 180px;
+}
+
+
+.mytextStyleDiv2{
+  border-color: #00A6FF;  
+  border-width: 2px;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 10px;
+  /* margin-left: 30px;
+  margin-right: 30px; */
+  width: 130px;
+  height: 30px;      
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+  cursor: pointer;
+  margin: 10px;
+}
+
+.mytextStyleDiv2:hover{
+  border-color: #00A6FF;  
+  background-color: #00A6FF;    
+  border-width: 2px;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 10px;
+  /* margin-left: 30px;
+  margin-right: 30px; */
+  width: 130px;
+  height: 30px;      
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;    
+  cursor: pointer;
+}
+  
+.mytextStyle{
+  font-size: 18px;    
+  text-align: center;
+  color: #0c0c0c;
+  user-select: none;
+}
+
+.mySecondDiv2{
+  flex-direction: column;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.centerItems{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: white; 
+  width: 100%;
+  margin: auto;
+  height: 390px;
+  overflow-y: scroll;
+  padding:40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.myDivision{
+  flex-direction: row;
+  display: flex;
+
+
+}
+
+
+.container {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  
+}
+
+.skills {
+  text-align: right;
+  color: white;
+}
+
+.html {
+  width: 90%; 
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #00A6FF;
+  border-radius: 45px ;
+}
+.yellow {
+  width: 30%; 
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #FFC82C;
+  border-radius: 45px ;
+}
+.green {
+  width: 50%; 
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #77D353;
+  border-radius: 45px ;
+}
+
+.orange {
+  width: 20%; 
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #FF9052;
+  border-radius: 45px ;
+}

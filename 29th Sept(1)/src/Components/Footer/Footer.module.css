@@ -1,0 +1,106 @@
+.myDivStyle{
+    flex-direction: row;
+    align-items: center;
+justify-content: center;
+display: flex;
+}
+.myDiv2Style{    
+    flex-direction: row;
+    align-items: center;
+justify-content: center;
+display: flex;
+/* margin-bottom: -95px; */
+}
+.myDiv3Style{    
+    flex-direction: column;
+     /* align-items: center; */
+justify-content: center;
+display: flex;
+/* margin-bottom: -190px; */
+margin-bottom: -115px;
+}
+.myTextStyle{
+    font-size: 18px;
+    font-style: normal;
+    padding-left: 5px;
+    color: black;
+}
+.filterImage{
+    width: 40px;
+    height: 40px;
+}
+.filterImageStyle{
+    justify-content: center;
+    align-items: center;    
+    margin-bottom: 0px;
+    display: flex;
+    /* text-align: center; */
+    /* left: 50%; */
+    /* bottom: 0%; */
+    padding: 10px;  
+}
+
+.calImageStyle{
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    /* align-items: center;     */    
+    display: flex;
+    text-align: center;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+    padding-bottom: 140px;
+    margin-bottom: -130px;
+    bottom: 0%;
+   overflow: hidden;   
+   color: black;
+    border-radius: 10px 10px 0px 0px;    
+}
+.calImageStyle:hover {
+    /* width: 100%;    
+    position: fixed;
+    justify-content: space-around;
+    height: 100px;    
+    padding: 10px;  
+    background-color: #00A6FF;  */
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    /* align-items: center;     */    
+    display: flex;
+    text-align: center;
+    padding-top: 10px;  
+    color: black;
+    padding-bottom: 10px;
+    padding-bottom: 250px;
+    height: 10px;    
+   overflow: visible;
+   background-color: white;   
+    border-radius: 10px 10px 0px 0px;    
+  border: 1px solid #000000;
+}
+.dropdownStyle{
+    flex-direction: column;
+}
+.briefImageStyle{
+    justify-content: center;
+    align-items: center;    
+    margin-bottom: 0px;
+    display: flex;
+    text-align: right;    
+    float: right;
+    padding: 10px;   
+    }
+.mainDiv{
+    bottom: 0%;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: #00A6FF; */
+    /* border-width: 2px;
+    border-color: black;
+    border-radius: 10px; */
+  user-select: none;  
+  flex-direction: row;
+}
